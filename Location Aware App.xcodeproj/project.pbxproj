@@ -14,6 +14,7 @@
 		29224D7D1FF34E9A00544572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29224D7B1FF34E9A00544572 /* LaunchScreen.storyboard */; };
 		29224D881FF34E9B00544572 /* Location_Aware_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29224D871FF34E9B00544572 /* Location_Aware_AppTests.swift */; };
 		29224D931FF34E9B00544572 /* Location_Aware_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29224D921FF34E9B00544572 /* Location_Aware_AppUITests.swift */; };
+		29224DA21FF34EB100544572 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29224DA11FF34EB000544572 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		29224D8E1FF34E9B00544572 /* Location Aware AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location Aware AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29224D921FF34E9B00544572 /* Location_Aware_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_Aware_AppUITests.swift; sourceTree = "<group>"; };
 		29224D941FF34E9B00544572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29224DA11FF34EB000544572 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29224DA21FF34EB100544572 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				29224D861FF34E9B00544572 /* Location Aware AppTests */,
 				29224D911FF34E9B00544572 /* Location Aware AppUITests */,
 				29224D701FF34E9A00544572 /* Products */,
+				29224DA01FF34EAF00544572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				29224D941FF34E9B00544572 /* Info.plist */,
 			);
 			path = "Location Aware AppUITests";
+			sourceTree = "<group>";
+		};
+		29224DA01FF34EAF00544572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29224DA11FF34EB000544572 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
